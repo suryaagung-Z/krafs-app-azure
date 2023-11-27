@@ -12,7 +12,6 @@
     rel="stylesheet" />
   <link rel="icon" type="image/x-icon" href="/assets/images/landing/KRAFS-Nobg.png" />
   <title>KRAFS</title>
-  z
   <!-- Bootstrap core CSS -->
   <link href="/assets/css/vendors/bootstrap/bootstrap.css" rel="stylesheet" />
 
