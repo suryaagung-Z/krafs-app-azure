@@ -25,8 +25,7 @@
 </head>
 
 <body>
-  {{-- {{ var_dump(auth()->user()->customer->fullName) }} --}}
-  <!-- ***** Header Area Start ***** -->
+
   <header class="header-area header-sticky animated-bawah">
     <div class="container">
       <div class="row">
@@ -86,11 +85,8 @@
       </div>
     </div>
   </header>
-  <!-- ***** Header Area End ***** -->
 
-  <!-- content -->
-  <!-- merch -->
-  <div class="main-banner fadeIn" id="top">
+  <div class="main-banner fadeIn d-flex flex-column justify-content-center" id="top">
     <div class="container trigger-header">
       <div class="row">
         <div class="col-lg-12">
@@ -122,7 +118,7 @@
     </div>
   </div>
 
-  <!-- chat -->
+
   <div id="forum" class="about-us section">
     <div class="container">
       <div class="row">
@@ -170,11 +166,11 @@
     </div>
   </div>
 
-  <!-- artikel -->
+
   <div id="articles" class="services section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 offset-lg-2">
+        <div class="col-lg-8">
           <div class="section-heading" data-aos="fade-down" data-aos-duration="700">
             <h4>Lihat <em>artikel</em> terbaru dari kami</h4>
             <img src="/assets/images/landing/heading-line-dec.png" alt="" />
@@ -230,51 +226,48 @@
     </div>
   </div>
 
-  <!-- footer -->
-  <footer id="newsletter" data-aos="fade-up">
+  <footer id="newsletter" data-aos="fade-up" class="text-dark">
     <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="d-flex justify-content-center">
-          <div class="col-lg-3">
-            <div class="footer-widget">
-              <h4>About Us</h4>
-              <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">Forum</a></li>
-                <li><a href="">Article</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="footer-widget">
-              <h4>Useful Links</h4>
-              <ul>
-                <li><a href="#">Free Apps</a></li>
-                <li><a href="#">App Engine</a></li>
-                <li><a href="#">Programming</a></li>
-                <li><a href="#">Development</a></li>
-                <li><a href="#">App News</a></li>
-              </ul>
-              <ul>
-                <li><a href="#">App Dev Team</a></li>
-                <li><a href="#">Digital Web</a></li>
-                <li><a href="#">Normal Apps</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="footer-widget">
-              <h4>About Our Company</h4>
-              <div class="logo">
-                <a href="#top"><img src="/assets/images/landing/KRAFS-footer.png" alt=""
-                    style="width: 45px; height: 46px;" id="logo-footer" /></a>
-              </div>
-              <p>Kopi Terbaik ada di Krafs</p>
-            </div>
+      <div class="row d-flex justify-content-center gap-5">
+        <div class="col-md-2 col-lg-2">
+          <div class="footer-widget">
+            <h4>About Us</h4>
+            <ul>
+              <li><a href="" class="text-dark">Home</a></li>
+              <li><a href="" class="text-dark">Shop</a></li>
+              <li><a href="" class="text-dark">Forum</a></li>
+              <li><a href="" class="text-dark">Article</a></li>
+            </ul>
           </div>
         </div>
-        <div class="col-lg-12">
+        <div class="col-md-5 col-lg-3">
+          <div class="footer-widget">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#" class="text-dark">Free Apps</a></li>
+              <li><a href="#" class="text-dark">App Engine</a></li>
+              <li><a href="#" class="text-dark">Programming</a></li>
+              <li><a href="#" class="text-dark">Development</a></li>
+              <li><a href="#" class="text-dark">App News</a></li>
+            </ul>
+            <ul>
+              <li><a href="#" class="text-dark">App Dev Team</a></li>
+              <li><a href="#" class="text-dark">Digital Web</a></li>
+              <li><a href="#" class="text-dark">Normal Apps</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="footer-widget">
+            <h4>About Our Company</h4>
+            <div class="logo">
+              <a href="#top"><img src="/assets/images/landing/KRAFS-footer.png" alt=""
+                  style="width: 45px; height: 46px;" id="logo-footer" /></a>
+            </div>
+            <p>Kopi Terbaik ada di Krafs</p>
+          </div>
+        </div>
+        <div class="col-12">
           <div class="copyright-text">
             <p>Copyright © Kopi Krafs <br />Kopi Krafs</a></p>
           </div>

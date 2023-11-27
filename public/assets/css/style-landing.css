@@ -925,7 +925,7 @@ Banner Style
 */
 
 .main-banner {
-  padding: 150px 120px 70px 120px;
+  height: 100vh;
   position: relative;
   overflow: hidden;
 }
@@ -979,7 +979,9 @@ Services Style
 */
 
 .services {
-  padding: 70px 120px 70px 120px;
+  /* padding: 70px 120px 70px 120px; */
+  padding-top:120px;
+  padding-bottom:120px;
   position: relative;
 }
 
@@ -1089,8 +1091,8 @@ About Us
 
 .about-us {
   padding-top: 130px;
+  padding-bottom: 130px;
   position: relative;
-  padding: 70px 120px 70px 120px;
 }
 
 .about-us .section-heading {
@@ -1397,7 +1399,7 @@ footer #search button:hover {
 
 .footer-widget p,
 .footer-widget p a {
-  color: white;
+  /* color: white; */
 }
 
 .footer-widget ul {
@@ -1417,7 +1419,6 @@ footer #search button:hover {
 
 .footer-widget ul li a {
   font-size: 15px;
-  color: white;
   transition: all 0.3s;
 }
 
