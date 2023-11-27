@@ -4,7 +4,9 @@ namespace App\Providers;
 
 use App\Models\Cart;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\View;
 
@@ -27,8 +29,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // var_dump(Auth::user());
-        // die;
+        if (App::environment(['staging', 'production'])) {
+            URL::forceScheme('https');
+        }
+
         config(['app.locale' => 'id']);
         Carbon::setLocale('id');
 
