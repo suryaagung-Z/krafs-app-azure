@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Models\Cart;
 use Carbon\Carbon;
+use Illuminate\Routing\UrlGenerator;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\View;
@@ -25,8 +26,11 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function boot(UrlGenerator $url)
     {
+        if (env('APP_ENV') !== 'local') {
+            $url->forceSchema('https');
+        }
         // var_dump(Auth::user());
         // die;
         config(['app.locale' => 'id']);
