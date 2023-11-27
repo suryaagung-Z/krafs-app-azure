@@ -46,7 +46,7 @@
 	Swal.fire({
 		position: "top-end",
 		icon: "error",
-		title: "{{ session('danger",
+		title: "{{ session('danger') }}",
 		showConfirmButton: false,
 		timer: 2000
 	});
@@ -56,7 +56,7 @@
 	Swal.fire({
 		position: "top-end",
 		icon: "warning",
-		title: "{{ session('warning",
+		title: "{{ session('warning') }}",
 		showConfirmButton: false,
 		timer: 2000
 	});
@@ -66,7 +66,7 @@
 	Swal.fire({
 		position: "top-end",
 		icon: "success",
-		title: "{{ session('success",
+		title: "{{ session('success') }}",
 		showConfirmButton: false,
 		timer: 2000
 	});
