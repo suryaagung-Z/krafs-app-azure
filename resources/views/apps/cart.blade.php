@@ -101,9 +101,9 @@
 @endsection
 
 @section('script')
-<script src="{{ asset('assets/js/touchspin/vendors.min.js') }}"></script>
-<script src="{{ asset('assets/js/touchspin/touchspin.js') }}"></script>
-<script src="{{ asset('assets/js/touchspin/input-groups.min.js') }}"></script>
+<script src="/assets/js/touchspin/vendors.min.js"></script>
+<script src="/assets/js/touchspin/touchspin.js"></script>
+<script src="/assets/js/touchspin/input-groups.min.js"></script>
 <script lang="javascript">
   (function(){
     const checkoutTable = $('#checkout-table').first();

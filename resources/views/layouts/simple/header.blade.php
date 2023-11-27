@@ -15,16 +15,16 @@
     </form>
     <div class="header-logo-wrapper col-auto p-0">
       <div class="logo-wrapper"><a href="{{ route('dashboard')}}"><img class="img-fluid"
-            src="{{ asset('assets/images/logo/logo.png') }}" alt=""></a></div>
+            src="/assets/images/logo/logo.png" alt=""></a></div>
       <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="align-center"></i></div>
     </div>
     <div class="left-header col-xxl-5 col-xl-6 col-lg-5 col-md-4 col-sm-3 p-0">
       <div class="notification-slider">
-        <div class="d-flex h-100"> <img src="{{ asset('assets/images/giftools.gif') }}" alt="gif">
+        <div class="d-flex h-100"> <img src="/assets/images/giftools.gif" alt="gif">
           <h6 class="mb-0 f-w-400"><span class="font-primary">Don't Miss Out! </span><span class="f-light">Out new
               update has been release.</span></h6><i class="icon-arrow-top-right f-light"></i>
         </div>
-        <div class="d-flex h-100"><img src="{{ asset('assets/images/giftools.gif') }}" alt="gif">
+        <div class="d-flex h-100"><img src="/assets/images/giftools.gif" alt="gif">
           <h6 class="mb-0 f-w-400"><span class="f-light">Something you love is now on sale! </span></h6><a class="ms-1"
             href="https://1.envato.market/3GVzd" target="_blank">Buy now !</a>
         </div>
@@ -35,7 +35,7 @@
         <li>
           <div class="mode">
             <svg>
-              <use href="{{ asset('assets/svg/icon-sprite.svg#moon') }}"></use>
+              <use href="/assets/svg/icon-sprite.svg#moon"></use>
             </svg>
           </div>
         </li>
@@ -45,7 +45,7 @@
           <a href="{{ route('cart.index') }}">
             <div class="cart-box">
               <svg>
-                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-ecommerce') }}"></use>
+                <use href="/assets/svg/icon-sprite.svg#stroke-ecommerce"></use>
               </svg>
               <span
                 class="badge rounded-pill badge-success {{ $cartCount == '0' ? 'd-none' : '' }}">{{ $cartCount }}</span>
@@ -76,7 +76,7 @@
         @else
         <li>
           <a href="{{ route('google.login') }}" class="btn btn-pill btn-light btn-air-light px-3 py-1">
-            <img src="{{asset('assets/images/svg-icon/google.svg')}}" alt="google icon" style="width:25px;">
+            <img src="/assets/images/svg-icon/google.svg" alt="google icon" style="width:25px;">
             Login
           </a>
         </li>

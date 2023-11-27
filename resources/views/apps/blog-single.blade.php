@@ -22,7 +22,7 @@
 		<div class="col-sm-12">
 			<div class="blog-single">
 				<div class="blog-box blog-details">
-					<img class="img-fluid w-100" src="{{asset('assets/images/blog/blog-single.jpg')}}" alt="blog-main">
+					<img class="img-fluid w-100" src="/assets/images/blog/blog-single.jpg" alt="blog-main">
 					<div class="blog-details">
 						<ul class="blog-social">
 							<li class="digits">25 July 2018</li>
@@ -60,7 +60,7 @@
 					<ul>
 						<li>
 							<div class="media align-self-center">
-								<img class="align-self-center" src="{{asset('assets/images/blog/comment.jpg')}}"
+								<img class="align-self-center" src="/assets/images/blog/comment.jpg"
 									alt="Generic placeholder image">
 								<div class="media-body">
 									<div class="row">
@@ -87,7 +87,7 @@
 							<ul>
 								<li>
 									<div class="media">
-										<img class="align-self-center" src="{{asset('assets/images/blog/9.jpg')}}"
+										<img class="align-self-center" src="/assets/images/blog/9.jpg"
 											alt="Generic placeholder image">
 										<div class="media-body">
 											<div class="row">
@@ -107,7 +107,7 @@
 						</li>
 						<li>
 							<div class="media">
-								<img class="align-self-center" src="{{asset('assets/images/blog/4.jpg')}}"
+								<img class="align-self-center" src="/assets/images/blog/4.jpg"
 									alt="Generic placeholder image">
 								<div class="media-body">
 									<div class="row">
@@ -132,7 +132,7 @@
 						</li>
 						<li>
 							<div class="media">
-								<img class="align-self-center" src="{{asset('assets/images/blog/12.png')}}"
+								<img class="align-self-center" src="/assets/images/blog/12.png"
 									alt="Generic placeholder image">
 								<div class="media-body">
 									<div class="row">
@@ -157,7 +157,7 @@
 						</li>
 						<li>
 							<div class="media">
-								<img class="align-self-center" src="{{asset('assets/images/blog/14.png')}}"
+								<img class="align-self-center" src="/assets/images/blog/14.png"
 									alt="Generic placeholder image">
 								<div class="media-body">
 									<div class="row">

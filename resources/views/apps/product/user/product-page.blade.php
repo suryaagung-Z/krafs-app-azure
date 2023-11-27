@@ -6,8 +6,8 @@
 @endsection
 
 @section('style')
-<link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/owlcarousel.css')}}">
-<link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/rating.css')}}">
+<link rel="stylesheet" type="text/css" href="/assets/css/vendors/owlcarousel.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/vendors/rating.css">
 @endsection
 
 @section('breadcrumb-title')
@@ -213,9 +213,9 @@
 @endsection
 
 @section('script')
-<script src="{{asset('assets/js/sidebar-menu.js')}}"></script>
-<script src="{{asset('assets/js/rating/jquery.barrating.js')}}"></script>
-<script src="{{asset('assets/js/rating/rating-script.js')}}"></script>
-<script src="{{asset('assets/js/owlcarousel/owl.carousel.js')}}"></script>
-<script src="{{asset('assets/js/ecommerce.js')}}"></script>
+<script src="/assets/js/sidebar-menu.js"></script>
+<script src="/assets/js/rating/jquery.barrating.js"></script>
+<script src="/assets/js/rating/rating-script.js"></script>
+<script src="/assets/js/owlcarousel/owl.carousel.js"></script>
+<script src="/assets/js/ecommerce.js"></script>
 @endsection

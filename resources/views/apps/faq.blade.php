@@ -430,7 +430,7 @@
 					<div class="col-xl-3 xl-50 col-md-6">
 						<div class="card features-faq product-box">
 							<div class="faq-image product-img">
-								<img class="img-fluid" src="{{asset('assets/images/faq/1.jpg')}}" alt="">
+								<img class="img-fluid" src="/assets/images/faq/1.jpg" alt="">
 								<div class="product-hover">
 									<ul>
 										<li><i class="icon-link"></i></li>
@@ -453,7 +453,7 @@
 					<div class="col-xl-3 xl-50 col-md-6">
 						<div class="card features-faq product-box">
 							<div class="faq-image product-img">
-								<img class="img-fluid" src="{{asset('assets/images/faq/2.jpg')}}" alt="">
+								<img class="img-fluid" src="/assets/images/faq/2.jpg" alt="">
 								<div class="product-hover">
 									<ul>
 										<li><i class="icon-link"></i></li>
@@ -476,7 +476,7 @@
 					<div class="col-xl-3 xl-50 col-md-6">
 						<div class="card features-faq product-box">
 							<div class="faq-image product-img">
-								<img class="img-fluid" src="{{asset('assets/images/faq/3.jpg')}}" alt="">
+								<img class="img-fluid" src="/assets/images/faq/3.jpg" alt="">
 								<div class="product-hover">
 									<ul>
 										<li><i class="icon-link"></i></li>
@@ -499,7 +499,7 @@
 					<div class="col-xl-3 xl-50 col-md-6">
 						<div class="card features-faq product-box">
 							<div class="faq-image product-img">
-								<img class="img-fluid" src="{{asset('assets/images/faq/4.jpg')}}" alt="">
+								<img class="img-fluid" src="/assets/images/faq/4.jpg" alt="">
 								<div class="product-hover">
 									<ul>
 										<li><i class="icon-link"></i></li>
@@ -672,5 +672,5 @@
 @endsection
 
 @section('script')
-<script src="{{asset('assets/js/height-equal.js')}}"></script>
+<script src="/assets/js/height-equal.js"></script>
 @endsection

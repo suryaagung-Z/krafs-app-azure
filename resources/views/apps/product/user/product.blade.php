@@ -6,9 +6,9 @@
 @endsection
 
 @section('style')
-<link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/select2.css')}}">
-<link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/owlcarousel.css')}}">
-<link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/range-slider.css')}}">
+<link rel="stylesheet" type="text/css" href="/assets/css/vendors/select2.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/vendors/owlcarousel.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/vendors/range-slider.css">
 @endsection
 
 @section('breadcrumb-title')
@@ -232,13 +232,13 @@
 @endsection
 
 @section('script')
-<script src="{{asset('assets/js/range-slider/ion.rangeSlider.min.js')}}"></script>
-<script src="{{asset('assets/js/range-slider/rangeslider-script.js')}}"></script>
-<script src="{{asset('assets/js/touchspin/vendors.min.js')}}"></script>
-<script src="{{asset('assets/js/touchspin/touchspin.js')}}"></script>
-<script src="{{asset('assets/js/touchspin/input-groups.min.js')}}"></script>
-<script src="{{asset('assets/js/owlcarousel/owl.carousel.js')}}"></script>
-<script src="{{asset('assets/js/select2/select2.full.min.js')}}"></script>
-<script src="{{asset('assets/js/select2/select2-custom.js')}}"></script>
-<script src="{{asset('assets/js/product-tab.js')}}"></script>
+<script src="/assets/js/range-slider/ion.rangeSlider.min.js"></script>
+<script src="/assets/js/range-slider/rangeslider-script.js"></script>
+<script src="/assets/js/touchspin/vendors.min.js"></script>
+<script src="/assets/js/touchspin/touchspin.js"></script>
+<script src="/assets/js/touchspin/input-groups.min.js"></script>
+<script src="/assets/js/owlcarousel/owl.carousel.js"></script>
+<script src="/assets/js/select2/select2.full.min.js"></script>
+<script src="/assets/js/select2/select2-custom.js"></script>
+<script src="/assets/js/product-tab.js"></script>
 @endsection

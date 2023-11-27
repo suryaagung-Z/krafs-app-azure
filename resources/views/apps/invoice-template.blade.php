@@ -29,7 +29,7 @@
                            <div class="col-sm-6">
                               <div class="media">
                                  <div class="media-left"><img class="media-object img-60"
-                                       src="{{asset('assets/images/other-images/logo-login.png')}}" alt=""></div>
+                                       src="/assets/images/other-images/logo-login.png" alt=""></div>
                                  <div class="media-body m-l-20 text-right">
                                     <h4 class="media-heading">customer</h4>
                                     <p>customer@gmail.com<br><span>289-335-6503</span></p>
@@ -52,7 +52,7 @@
                         <div class="col-md-4">
                            <div class="media">
                               <div class="media-left"><img class="media-object rounded-circle img-60"
-                                    src="{{asset('assets/images/user/1.jpg')}}" alt=""></div>
+                                    src="/assets/images/user/1.jpg" alt=""></div>
                               <div class="media-body m-l-20">
                                  <h4 class="media-heading">Johan Deo</h4>
                                  <p>JohanDeo@gmail.com<br><span>555-555-5555</span></p>
@@ -189,8 +189,8 @@
                            </div>
                            <div class="col-md-4">
                               <form class="text-end">
-                                 <input type="image" src="{{asset('assets/images/other-images/paypal.png')}}"
-                                    name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                 <input type="image" src="/assets/images/other-images/paypal.png" name="submit"
+                                    alt="PayPal - The safer, easier way to pay online!">
                               </form>
                            </div>
                         </div>
@@ -213,8 +213,8 @@
 @endsection
 
 @section('script')
-<script src="{{asset('assets/js/counter/jquery.waypoints.min.js')}}"></script>
-<script src="{{asset('assets/js/counter/jquery.counterup.min.js')}}"></script>
-<script src="{{asset('assets/js/counter/counter-custom.js')}}"></script>
-<script src="{{asset('assets/js/print.js')}}"></script>
+<script src="/assets/js/counter/jquery.waypoints.min.js"></script>
+<script src="/assets/js/counter/jquery.counterup.min.js"></script>
+<script src="/assets/js/counter/counter-custom.js"></script>
+<script src="/assets/js/print.js"></script>
 @endsection

@@ -6,7 +6,7 @@
 @endsection
 
 @section('style')
-<link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/datatables.css')}}">
+<link rel="stylesheet" type="text/css" href="/assets/css/vendors/datatables.css">
 @endsection
 
 @section('breadcrumb-title')
@@ -31,7 +31,7 @@
             <div class="col-xl-4 col-md-6">
               <div class="prooduct-details-box">
                 <div class="media"><img class="align-self-center img-fluid img-60"
-                    src="{{ asset('assets/images/ecommerce/product-table-6.png') }}" alt="#">
+                    src="/assets/images/ecommerce/product-table-6.png" alt="#">
                   <div class="media-body ms-3">
                     <div class="product-name">
                       <h6><a href="#">Women Top</a></h6>
@@ -51,7 +51,7 @@
             <div class="col-xl-4 col-md-6">
               <div class="prooduct-details-box">
                 <div class="media"><img class="align-self-center img-fluid img-60"
-                    src="{{ asset('assets/images/ecommerce/product-table-5.png') }}" alt="#">
+                    src="/assets/images/ecommerce/product-table-5.png" alt="#">
                   <div class="media-body ms-3">
                     <div class="product-name">
                       <h6><a href="#">Womem shorts</a></h6>
@@ -71,7 +71,7 @@
             <div class="col-xl-4 col-md-6">
               <div class="prooduct-details-box">
                 <div class="media"><img class="align-self-center img-fluid img-60"
-                    src="{{ asset('assets/images/ecommerce/product-table-4.png') }}" alt="#">
+                    src="/assets/images/ecommerce/product-table-4.png" alt="#">
                   <div class="media-body ms-3">
                     <div class="product-name">
                       <h6><a href="#">Cyclamen </a></h6>
@@ -91,7 +91,7 @@
             <div class="col-xl-4 col-md-6">
               <div class="prooduct-details-box">
                 <div class="media"><img class="align-self-center img-fluid img-60"
-                    src="{{ asset('assets/images/ecommerce/product-table-3.png') }}" alt="#">
+                    src="/assets/images/ecommerce/product-table-3.png" alt="#">
                   <div class="media-body ms-3">
                     <div class="product-name">
                       <h6><a href="#">Men Solid Denim Jacket</a></h6>
@@ -111,7 +111,7 @@
             <div class="col-xl-4 col-md-6">
               <div class="prooduct-details-box">
                 <div class="media"><img class="align-self-center img-fluid img-60"
-                    src="{{ asset('assets/images/ecommerce/product-table-2.png') }}" alt="#">
+                    src="/assets/images/ecommerce/product-table-2.png" alt="#">
                   <div class="media-body ms-3">
                     <div class="product-name">
                       <h6><a href="#">Blue shirt</a></h6>
@@ -131,7 +131,7 @@
             <div class="col-xl-4 col-md-6">
               <div class="prooduct-details-box">
                 <div class="media"><img class="align-self-center img-fluid img-60"
-                    src="{{ asset('assets/images/ecommerce/product-table-1.png') }}" alt="#">
+                    src="/assets/images/ecommerce/product-table-1.png" alt="#">
                   <div class="media-body ms-3">
                     <div class="product-name">
                       <h6><a href="#">Red shirt</a></h6>
@@ -151,7 +151,7 @@
             <div class="col-xl-4 col-md-6">
               <div class="prooduct-details-box">
                 <div class="media"><img class="align-self-center img-fluid img-60"
-                    src="{{ asset('assets/images/ecommerce/product-table-1.png') }}" alt="#">
+                    src="/assets/images/ecommerce/product-table-1.png" alt="#">
                   <div class="media-body ms-3">
                     <div class="product-name">
                       <h6><a href="#">Red Shirt</a></h6>
@@ -171,7 +171,7 @@
             <div class="col-xl-4 col-md-6">
               <div class="prooduct-details-box">
                 <div class="media"><img class="align-self-center img-fluid img-60"
-                    src="{{ asset('assets/images/ecommerce/product-table-6.png') }}" alt="#">
+                    src="/assets/images/ecommerce/product-table-6.png" alt="#">
                   <div class="media-body ms-3">
                     <div class="product-name">
                       <h6><a href="#">Women Top</a></h6>
@@ -191,7 +191,7 @@
             <div class="col-xl-4 col-md-6">
               <div class="prooduct-details-box">
                 <div class="media"><img class="align-self-center img-fluid img-60"
-                    src="{{ asset('assets/images/ecommerce/product-table-5.png') }}" alt="#">
+                    src="/assets/images/ecommerce/product-table-5.png" alt="#">
                   <div class="media-body ms-3">
                     <div class="product-name">
                       <h6><a href="#">Women shorts</a></h6>
@@ -211,7 +211,7 @@
             <div class="col-xl-4 col-md-6">
               <div class="prooduct-details-box">
                 <div class="media"><img class="align-self-center img-fluid img-60"
-                    src="{{ asset('assets/images/ecommerce/product-table-4.png') }}" alt="#">
+                    src="/assets/images/ecommerce/product-table-4.png" alt="#">
                   <div class="media-body ms-3">
                     <div class="product-name">
                       <h6><a href="#">Cyclamen</a></h6>
@@ -231,7 +231,7 @@
             <div class="col-xl-4 col-md-6">
               <div class="prooduct-details-box">
                 <div class="media"><img class="align-self-center img-fluid img-60"
-                    src="{{ asset('assets/images/ecommerce/product-table-3.png') }}" alt="#">
+                    src="/assets/images/ecommerce/product-table-3.png" alt="#">
                   <div class="media-body ms-3">
                     <div class="product-name">
                       <h6><a href="#">Men Solid Denim Jacket</a></h6>
@@ -251,7 +251,7 @@
             <div class="col-xl-4 col-md-6">
               <div class="prooduct-details-box">
                 <div class="media"><img class="align-self-center img-fluid img-60"
-                    src="{{ asset('assets/images/ecommerce/product-table-3.png') }}" alt="#">
+                    src="/assets/images/ecommerce/product-table-3.png" alt="#">
                   <div class="media-body ms-3">
                     <div class="product-name">
                       <h6><a href="#">Men Solid Denim Jacket</a></h6>
@@ -271,7 +271,7 @@
             <div class="col-xl-4 col-md-6">
               <div class="prooduct-details-box">
                 <div class="media"><img class="align-self-center img-fluid img-60"
-                    src="{{ asset('assets/images/ecommerce/product-table-2.png') }}" alt="#">
+                    src="/assets/images/ecommerce/product-table-2.png" alt="#">
                   <div class="media-body ms-3">
                     <div class="product-name">
                       <h6><a href="#">Blue shirt</a></h6>
@@ -291,7 +291,7 @@
             <div class="col-xl-4 col-md-6">
               <div class="prooduct-details-box">
                 <div class="media"><img class="align-self-center img-fluid img-60"
-                    src="{{ asset('assets/images/ecommerce/product-table-6.png') }}" alt="#">
+                    src="/assets/images/ecommerce/product-table-6.png" alt="#">
                   <div class="media-body ms-3">
                     <div class="product-name">
                       <h6><a href="#">Women Top</a></h6>
@@ -311,7 +311,7 @@
             <div class="col-xl-4 col-md-6">
               <div class="prooduct-details-box">
                 <div class="media"><img class="align-self-center img-fluid img-60"
-                    src="{{ asset('assets/images/ecommerce/product-table-5.png') }}" alt="#">
+                    src="/assets/images/ecommerce/product-table-5.png" alt="#">
                   <div class="media-body ms-3">
                     <div class="product-name">
                       <h6><a href="#">Women Short</a></h6>
@@ -339,6 +339,6 @@
 @endsection
 
 @section('script')
-<script src="{{asset('assets/js/datatable/datatables/jquery.dataTables.min.js')}}"></script>
-<script src="{{asset('assets/js/datatable/datatables/datatable.custom.js')}}"></script>
+<script src="/assets/js/datatable/datatables/jquery.dataTables.min.js"></script>
+<script src="/assets/js/datatable/datatables/datatable.custom.js"></script>
 @endsection

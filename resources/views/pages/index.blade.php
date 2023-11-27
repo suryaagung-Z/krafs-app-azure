@@ -10,19 +10,19 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet" />
-  <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/landing/KRAFS-Nobg.png') }}" />
+  <link rel="icon" type="image/x-icon" href="/assets/images/landing/KRAFS-Nobg.png" />
   <title>KRAFS</title>
-
+  z
   <!-- Bootstrap core CSS -->
-  <link href="{{ asset('assets/css/vendors/bootstrap/bootstrap.css') }}" rel="stylesheet" />
+  <link href="/assets/css/vendors/bootstrap/bootstrap.css" rel="stylesheet" />
 
   <!-- Additional CSS Files -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-  <link rel="stylesheet" href="{{ asset('assets/css/style-landing.css') }}" />
-  <link rel="stylesheet" href="{{ asset('assets/css/vendors/animate.css') }}" />
-  <link rel="stylesheet" href="{{ asset('assets/css/vendors/owlcarousel.css') }}" />
-  <link rel="stylesheet" href="{{ asset('assets/css/vendors/aos.css') }}" />
+  <link rel="stylesheet" href="/assets/css/style-landing.css" />
+  <link rel="stylesheet" href="/assets/css/vendors/animate.css" />
+  <link rel="stylesheet" href="/assets/css/vendors/owlcarousel.css" />
+  <link rel="stylesheet" href="/assets/css/vendors/aos.css" />
 </head>
 
 <body>
@@ -35,7 +35,7 @@
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <img src="{{ asset('assets/images/landing/logo.png') }}" alt="Chain App Dev" />
+              <img src="/assets/images/landing/logo.png" alt="Chain App Dev" />
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
@@ -71,7 +71,7 @@
               <li>
                 <div class="gradient-button w-100">
                   <a href="{{ route('google.login') }}" class="py-2 px-3 d-flex align-items-center">
-                    <img src="{{asset('assets/images/svg-icon/google.svg')}}" alt="google icon" style="width:25px;">
+                    <img src="/assets/images/svg-icon/google.svg" alt="google icon" style="width:25px;">
                     <small>Login</small>
                   </a>
                 </div>
@@ -114,7 +114,7 @@
             </div>
             <div class="col-lg-6" data-aos="fade-left">
               <div class="right-image">
-                <img src="{{ asset('assets/images/landing/semleew.png') }}" alt="" />
+                <img src="/assets/images/landing/semleew.png" alt="" />
               </div>
             </div>
           </div>
@@ -130,7 +130,7 @@
         <div class="col-lg-6 align-self-center" data-aos="fade-right" data-aos-duration="1000">
           <div class="section-heading">
             <h4>Forum <em>and </em>Chatbot Ai</h4>
-            <img src="{{ asset('assets/images/landing/heading-line-dec.png') }}" alt="" />
+            <img src="/assets/images/landing/heading-line-dec.png" alt="" />
             <p>Kami menawarkan fitur forum dan chatbot ai untuk anda yang ingin bertanya-tanya ataupun hanya sekedar
               ingin berdiskusi mengenai kopi.</p>
           </div>
@@ -164,7 +164,7 @@
         </div>
         <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
           <div class="right-image">
-            <img src="{{ asset('assets/images/landing/Chat bot-pana.png') }}" alt="" />
+            <img src="/assets/images/landing/Chat bot-pana.png" alt="" />
           </div>
         </div>
       </div>
@@ -178,7 +178,7 @@
         <div class="col-lg-8 offset-lg-2">
           <div class="section-heading" data-aos="fade-down" data-aos-duration="700">
             <h4>Lihat <em>artikel</em> terbaru dari kami</h4>
-            <img src="{{ asset('assets/images/landing/heading-line-dec.png') }}" alt="" />
+            <img src="/assets/images/landing/heading-line-dec.png" alt="" />
           </div>
         </div>
       </div>
@@ -187,7 +187,7 @@
       <div class="row">
         <div class="col-lg-3" data-aos="fade-right" data-aos-duration="1500">
           <div class="service-item first-service">
-            <img src="{{ asset('assets/images/landing/gambarkopi.jpg') }}" />
+            <img src="/assets/images/landing/gambarkopi.jpg" />
             <h4>Lorem ipsum</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, corporis vero sunt minima incidunt</p>
             <div class="text-button">
@@ -197,7 +197,7 @@
         </div>
         <div class="col-lg-3" data-aos="fade-right" data-aos-duration="1500">
           <div class="service-item second-service">
-            <img src="{{ asset('assets/images/landing/gambarkopi.jpg') }}" />
+            <img src="/assets/images/landing/gambarkopi.jpg" />
             <h4>Lorem ipsum</h4>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi nihil obcaecati magnam et soluta quis eum
             </p>
@@ -208,7 +208,7 @@
         </div>
         <div class="col-lg-3" data-aos="fade-left" data-aos-duration="1500">
           <div class="service-item third-service">
-            <img src="{{ asset('assets/images/landing/gambarkopi.jpg') }}" />
+            <img src="/assets/images/landing/gambarkopi.jpg" />
             <h4>Lorem ipsum</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, eos vero. Culpa dolorum sunt voluptatem
             </p>
@@ -219,7 +219,7 @@
         </div>
         <div class="col-lg-3" data-aos="fade-left" data-aos-duration="1500">
           <div class="service-item fourth-service">
-            <img src="{{ asset('assets/images/landing/gambarkopi.jpg') }}" />
+            <img src="/assets/images/landing/gambarkopi.jpg" />
             <h4>Lorem ipsum</h4>
             <p>Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg photo booth quinoa and fashion axe.</p>
             <div class="text-button">
@@ -268,7 +268,7 @@
             <div class="footer-widget">
               <h4>About Our Company</h4>
               <div class="logo">
-                <a href="#top"><img src="{{ asset('assets/images/landing/KRAFS-footer.png') }}" alt=""
+                <a href="#top"><img src="/assets/images/landing/KRAFS-footer.png" alt=""
                     style="width: 45px; height: 46px;" id="logo-footer" /></a>
               </div>
               <p>Kopi Terbaik ada di Krafs</p>
@@ -286,11 +286,11 @@
 
   <!-- Scripts -->
   <!---->
-  <script src="{{ asset('assets/js/jquery-3.5.1.min.js') }}"></script>
-  <script src="{{ asset('assets/js/bootstrap/bootstrap.bundle.min.js') }}"></script>
-  <script src="{{ asset('assets/js/isotope.pkgd.js') }}"></script>
-  <script src="{{ asset('assets/js/animation/aos/aos.js') }}"></script>
-  <script src="{{ asset('assets/js/owlcarousel/owl.carousel.js') }}"></script>
+  <script src="/assets/js/jquery-3.5.1.min.js"></script>
+  <script src="/assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/isotope.pkgd.js"></script>
+  <script src="/assets/js/animation/aos/aos.js"></script>
+  <script src="/assets/js/owlcarousel/owl.carousel.js"></script>
   <script lang="javascript">
     (function ($) {
       "use strict";

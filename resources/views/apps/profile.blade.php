@@ -47,8 +47,7 @@
                 <a class="btn btn-square btn-light py-1 px-3" type="button" href="https://myaccount.google.com/"
                   target="_blank">
                   <small>Manage Google Account</small>
-                  <img src="{{ asset("assets/images/svg-icon/google.svg") }}" alt="google logo"
-                    class="img-20 rounded-circle">
+                  <img src="/assets/images/svg-icon/google.svg" alt="google logo" class="img-20 rounded-circle">
                 </a>
                 {{-- <button class="btn btn-primary btn-block disabled">Save</button> --}}
               </div>

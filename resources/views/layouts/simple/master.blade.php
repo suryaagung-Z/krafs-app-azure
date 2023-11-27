@@ -13,8 +13,8 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
-  <link rel="icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon">
-  <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon">
+  <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
   <title>KRAFS - @yield('title')</title>
   <!-- Google font-->
   <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&amp;display=swap"
@@ -61,7 +61,7 @@
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="{{ route('/')}}">
                       <svg class="stroke-icon">
-                        <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-home') }}"></use>
+                        <use href="/assets/svg/icon-sprite.svg#stroke-home"></use>
                       </svg></a></li>
                   </li>
                   @yield('breadcrumb-items')

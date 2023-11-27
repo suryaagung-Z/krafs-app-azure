@@ -12,7 +12,7 @@
 <div class="page-wrapper compact-wrapper" id="pageWrapper">
   <!-- error-503 start-->
   <div class="error-wrapper">
-    <div class="container"><img class="img-100" src="{{asset('assets/images/other-images/sad.png')}}" alt="">
+    <div class="container"><img class="img-100" src="/assets/images/other-images/sad.png" alt="">
       <div class="error-heading">
         <h2 class="headline font-secondary">503</h2>
       </div>

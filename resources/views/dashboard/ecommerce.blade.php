@@ -6,7 +6,7 @@
 @endsection
 
 @section('style')
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/vendors/animate.css') }}">
+<link rel="stylesheet" type="text/css" href="/assets/css/vendors/animate.css">
 @endsection
 
 @section('breadcrumb-title')
@@ -32,8 +32,8 @@
                                         class="purchase-btn btn btn-primary btn-hover-effect f-w-500" href="#">Tap
                                         Up Balance</a>
                                     <div class="mobile-right-img"><img class="left-mobile-img"
-                                            src="{{ asset('assets/images/dashboard-2/widget-img.png') }}" alt=""><img
-                                            class="mobile-img" src="{{ asset('assets/images/dashboard-2/mobile.gif') }}"
+                                            src="/assets/images/dashboard-2/widget-img.png" alt=""><img
+                                            class="mobile-img" src="/assets/images/dashboard-2/mobile.gif"
                                             alt="mobile with coin"></div>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@
                                     </div>
                                     <div class="bg-gradient">
                                         <svg class="stroke-icon svg-fill">
-                                            <use href="{{ asset('assets/svg/icon-sprite.svg#new-order') }}"></use>
+                                            <use href="/assets/svg/icon-sprite.svg#new-order"></use>
                                         </svg>
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@
                                     </div>
                                     <div class="bg-gradient">
                                         <svg class="stroke-icon svg-fill">
-                                            <use href="{{ asset('assets/svg/icon-sprite.svg#customers') }}"></use>
+                                            <use href="/assets/svg/icon-sprite.svg#customers"></use>
                                         </svg>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@
                                     </div>
                                     <div class="bg-gradient">
                                         <svg class="stroke-icon svg-fill">
-                                            <use href="{{ asset('assets/svg/icon-sprite.svg#sale') }}"></use>
+                                            <use href="/assets/svg/icon-sprite.svg#sale"></use>
                                         </svg>
                                     </div>
                                 </div>
@@ -92,7 +92,7 @@
                                     </div>
                                     <div class="bg-gradient">
                                         <svg class="stroke-icon svg-fill">
-                                            <use href="{{ asset('assets/svg/icon-sprite.svg#profit') }}"></use>
+                                            <use href="/assets/svg/icon-sprite.svg#profit"></use>
                                         </svg>
                                     </div>
                                 </div>
@@ -125,16 +125,14 @@
                                         <tbody>
                                             <tr>
                                                 <td><img class="img-fluid img-40 rounded-circle me-2"
-                                                        src="{{ asset('assets/images/dashboard/user/1.jpg') }}"
-                                                        alt="user"></td>
+                                                        src="/assets/images/dashboard/user/1.jpg" alt="user"></td>
                                                 <td class="img-content-box"><a class="f-w-500" href="">Jane
                                                         Cooper</a><span class="f-light">alma.lawson@gmail.com</span>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td><img class="img-fluid img-40 rounded-circle me-2"
-                                                        src="{{ asset('assets/images/dashboard/user/2.jpg') }}"
-                                                        alt="user">
+                                                        src="/assets/images/dashboard/user/2.jpg" alt="user">
                                                 </td>
                                                 <td class="img-content-box"><a class="f-w-500" href="">Cameron
                                                         Willia</a><span class="f-light">tim.jennings@gmail.com</span>
@@ -142,8 +140,7 @@
                                             </tr>
                                             <tr>
                                                 <td><img class="img-fluid img-40 rounded-circle me-2"
-                                                        src="{{ asset('assets/images/dashboard/user/9.jpg') }}"
-                                                        alt="user">
+                                                        src="/assets/images/dashboard/user/9.jpg" alt="user">
                                                 </td>
                                                 <td class="img-content-box"><a class="f-w-500" href="">Floyd
                                                         Miles</a><span class="f-light">kenzi.lawson@gmail.com</span>
@@ -151,8 +148,7 @@
                                             </tr>
                                             <tr>
                                                 <td><img class="img-fluid img-40 rounded-circle me-2"
-                                                        src="{{ asset('assets/images/dashboard/user/5.jpg') }}"
-                                                        alt="user">
+                                                        src="/assets/images/dashboard/user/5.jpg" alt="user">
                                                 </td>
                                                 <td class="img-content-box"><a class="f-w-500" href="">Dianne
                                                         Russell</a><span class="f-light">curtis.weaver@gmail.com</span>
@@ -160,8 +156,7 @@
                                             </tr>
                                             <tr>
                                                 <td><img class="img-fluid img-40 rounded-circle me-2"
-                                                        src="{{ asset('assets/images/dashboard/user/3.jpg') }}"
-                                                        alt="user">
+                                                        src="/assets/images/dashboard/user/3.jpg" alt="user">
                                                 </td>
                                                 <td class="img-content-box"><a class="f-w-500" href="">Guy
                                                         Hawkins</a><span class="f-light">curtis.weaver@gmail.com</span>
@@ -252,7 +247,7 @@
                                             <div class="light-card balance-card widget-hover">
                                                 <div class="svg-box">
                                                     <svg class="svg-fill">
-                                                        <use href="{{ asset('assets/svg/icon-sprite.svg#orders') }}">
+                                                        <use href="/assets/svg/icon-sprite.svg#orders">
                                                         </use>
                                                     </svg>
                                                 </div>
@@ -277,7 +272,7 @@
                                             <div class="light-card balance-card widget-hover">
                                                 <div class="svg-box">
                                                     <svg class="svg-fill">
-                                                        <use href="{{ asset('assets/svg/icon-sprite.svg#expense') }}">
+                                                        <use href="/assets/svg/icon-sprite.svg#expense">
                                                         </use>
                                                     </svg>
                                                 </div>
@@ -302,8 +297,7 @@
                                             <div class="light-card balance-card widget-hover">
                                                 <div class="svg-box">
                                                     <svg class="svg-fill">
-                                                        <use
-                                                            href="{{ asset('assets/svg/icon-sprite.svg#doller-return') }}">
+                                                        <use href="/assets/svg/icon-sprite.svg#doller-return">
                                                         </use>
                                                     </svg>
                                                 </div>
@@ -332,7 +326,7 @@
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-sm-6 box-col-6 wow zoomIn">
                     <div class="card purchase-card discover"><img class="img-fluid"
-                            src="{{ asset('assets/images/dashboard-2/discover.png') }}" alt="vector discover">
+                            src="/assets/images/dashboard-2/discover.png" alt="vector discover">
                         <div class="card-body pt-3">
                             <h5 class="mb-1">Discover Pro</h5>
                             <p class="f-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor </p><a
@@ -347,7 +341,7 @@
                             <div class="header-top">
                                 <h5 class="m-0">Visitors<span class="f-14 font-primary f-w-500 ms-1">
                                         <svg class="svg-fill me-1">
-                                            <use href="{{ asset('assets/svg/icon-sprite.svg#user-visitor') }}"></use>
+                                            <use href="/assets/svg/icon-sprite.svg#user-visitor"></use>
                                         </svg>(+2.8)</span></h5>
                                 <div class="card-header-right-icon">
                                     <div class="dropdown icon-dropdown">
@@ -393,32 +387,27 @@
                                     <button class="active frame-box" id="v-pills-shirt-tab" data-bs-toggle="pill"
                                         data-bs-target="#v-pills-shirt" type="button" role="tab"
                                         aria-controls="v-pills-shirt" aria-selected="true"><span
-                                            class="frame-image"><img
-                                                src="{{ asset('assets/images/dashboard-2/order/1.png') }}"
+                                            class="frame-image"><img src="/assets/images/dashboard-2/order/1.png"
                                                 alt="vector T-shirt"></span></button>
                                     <button class="frame-box" id="v-pills-television-tab" data-bs-toggle="pill"
                                         data-bs-target="#v-pills-television" type="button" role="tab"
                                         aria-controls="v-pills-television" aria-selected="false"><span
-                                            class="frame-image"><img
-                                                src="{{ asset('assets/images/dashboard-2/order/2.png') }}"
+                                            class="frame-image"><img src="/assets/images/dashboard-2/order/2.png"
                                                 alt="vector television"></span></button>
                                     <button class="frame-box" id="v-pills-headphone-tab" data-bs-toggle="pill"
                                         data-bs-target="#v-pills-headphone" type="button" role="tab"
                                         aria-controls="v-pills-headphone" aria-selected="false"><span
-                                            class="frame-image"><img
-                                                src="{{ asset('assets/images/dashboard-2/order/3.png') }}"
+                                            class="frame-image"><img src="/assets/images/dashboard-2/order/3.png"
                                                 alt="vector headphone"></span></button>
                                     <button class="frame-box" id="v-pills-chair-tab" data-bs-toggle="pill"
                                         data-bs-target="#v-pills-chair" type="button" role="tab"
                                         aria-controls="v-pills-chair" aria-selected="false"><span
-                                            class="frame-image"><img
-                                                src="{{ asset('assets/images/dashboard-2/order/4.png') }}"
+                                            class="frame-image"><img src="/assets/images/dashboard-2/order/4.png"
                                                 alt="vector chair"></span></button>
                                     <button class="frame-box" id="v-pills-lamp-tab" data-bs-toggle="pill"
                                         data-bs-target="#v-pills-lamp" type="button" role="tab"
                                         aria-controls="v-pills-lamp" aria-selected="false"><span
-                                            class="frame-image"><img
-                                                src="{{ asset('assets/images/dashboard-2/order/5.png') }}"
+                                            class="frame-image"><img src="/assets/images/dashboard-2/order/5.png"
                                                 alt="vector lamp"></span></button>
                                 </div>
                                 <div class="tab-content" id="v-pills-tabContent">
@@ -440,7 +429,7 @@
                                                         <td>
                                                             <div class="product-content">
                                                                 <div class="order-image"><img
-                                                                        src="{{ asset('assets/images/dashboard-2/order/sub-product/4.png') }}"
+                                                                        src="/assets/images/dashboard-2/order/sub-product/4.png"
                                                                         alt="t-shirt"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
@@ -455,8 +444,7 @@
                                                         <td class="f-w-500">
                                                             <div class="recent-status font-success">
                                                                 <svg class="me-1">
-                                                                    <use
-                                                                        href="{{ asset('assets/svg/icon-sprite.svg#24-hour') }}">
+                                                                    <use href="/assets/svg/icon-sprite.svg#24-hour">
                                                                     </use>
                                                                 </svg>Verified
                                                             </div>
@@ -467,7 +455,7 @@
                                                         <td>
                                                             <div class="product-content">
                                                                 <div class="order-image"><img
-                                                                        src="{{ asset('assets/images/dashboard-2/order/sub-product/3.png') }}"
+                                                                        src="/assets/images/dashboard-2/order/sub-product/3.png"
                                                                         alt="t-shirt"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
@@ -483,8 +471,7 @@
                                                         <td class="f-w-500">
                                                             <div class="recent-status font-danger">
                                                                 <svg class="me-1">
-                                                                    <use
-                                                                        href="{{ asset('assets/svg/icon-sprite.svg#24-hour') }}">
+                                                                    <use href="/assets/svg/icon-sprite.svg#24-hour">
                                                                     </use>
                                                                 </svg>Rejected
                                                             </div>
@@ -513,7 +500,7 @@
                                                         <td>
                                                             <div class="product-content">
                                                                 <div class="order-image"><img
-                                                                        src="{{ asset('assets/images/dashboard-2/order/sub-product/5.png') }}"
+                                                                        src="/assets/images/dashboard-2/order/sub-product/5.png"
                                                                         alt="television"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
@@ -528,8 +515,7 @@
                                                         <td class="f-w-500">
                                                             <div class="recent-status font-danger">
                                                                 <svg class="me-1">
-                                                                    <use
-                                                                        href="{{ asset('assets/svg/icon-sprite.svg#24-hour') }}">
+                                                                    <use href="/assets/svg/icon-sprite.svg#24-hour">
                                                                     </use>
                                                                 </svg>Rejected
                                                             </div>
@@ -540,7 +526,7 @@
                                                         <td>
                                                             <div class="product-content">
                                                                 <div class="order-image"><img
-                                                                        src="{{ asset('assets/images/dashboard-2/order/sub-product/6.png') }}"
+                                                                        src="/assets/images/dashboard-2/order/sub-product/6.png"
                                                                         alt="television"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
@@ -555,8 +541,7 @@
                                                         <td class="f-w-500">
                                                             <div class="recent-status font-success">
                                                                 <svg class="me-1">
-                                                                    <use
-                                                                        href="{{ asset('assets/svg/icon-sprite.svg#24-hour') }}">
+                                                                    <use href="/assets/svg/icon-sprite.svg#24-hour">
                                                                     </use>
                                                                 </svg>Verified
                                                             </div>
@@ -585,7 +570,7 @@
                                                         <td>
                                                             <div class="product-content">
                                                                 <div class="order-image"><img
-                                                                        src="{{ asset('assets/images/dashboard-2/order/sub-product/1.png') }}"
+                                                                        src="/assets/images/dashboard-2/order/sub-product/1.png"
                                                                         alt="headephones"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
@@ -600,8 +585,7 @@
                                                         <td class="f-w-500">
                                                             <div class="recent-status font-success">
                                                                 <svg class="me-1">
-                                                                    <use
-                                                                        href="{{ asset('assets/svg/icon-sprite.svg#24-hour') }}">
+                                                                    <use href="/assets/svg/icon-sprite.svg#24-hour">
                                                                     </use>
                                                                 </svg>Verified
                                                             </div>
@@ -612,7 +596,7 @@
                                                         <td>
                                                             <div class="product-content">
                                                                 <div class="order-image"><img
-                                                                        src="{{ asset('assets/images/dashboard-2/order/sub-product/2.png') }}"
+                                                                        src="/assets/images/dashboard-2/order/sub-product/2.png"
                                                                         alt="headephones"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
@@ -627,8 +611,7 @@
                                                         <td class="f-w-500">
                                                             <div class="recent-status font-danger">
                                                                 <svg class="me-1">
-                                                                    <use
-                                                                        href="{{ asset('assets/svg/icon-sprite.svg#24-hour') }}">
+                                                                    <use href="/assets/svg/icon-sprite.svg#24-hour">
                                                                     </use>
                                                                 </svg>Rejected
                                                             </div>
@@ -657,7 +640,7 @@
                                                         <td>
                                                             <div class="product-content">
                                                                 <div class="order-image"><img
-                                                                        src="{{ asset('assets/images/dashboard-2/order/sub-product/7.png') }}"
+                                                                        src="/assets/images/dashboard-2/order/sub-product/7.png"
                                                                         alt="chair"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
@@ -672,8 +655,7 @@
                                                         <td class="f-w-500">
                                                             <div class="recent-status font-success">
                                                                 <svg class="me-1">
-                                                                    <use
-                                                                        href="{{ asset('assets/svg/icon-sprite.svg#24-hour') }}">
+                                                                    <use href="/assets/svg/icon-sprite.svg#24-hour">
                                                                     </use>
                                                                 </svg>Verified
                                                             </div>
@@ -684,7 +666,7 @@
                                                         <td>
                                                             <div class="product-content">
                                                                 <div class="order-image"><img
-                                                                        src="{{ asset('assets/images/dashboard-2/order/sub-product/8.png') }}"
+                                                                        src="/assets/images/dashboard-2/order/sub-product/8.png"
                                                                         alt="chair"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
@@ -700,8 +682,7 @@
                                                         <td class="f-w-500">
                                                             <div class="recent-status font-danger">
                                                                 <svg class="me-1">
-                                                                    <use
-                                                                        href="{{ asset('assets/svg/icon-sprite.svg#24-hour') }}">
+                                                                    <use href="/assets/svg/icon-sprite.svg#24-hour">
                                                                     </use>
                                                                 </svg>Rejected
                                                             </div>
@@ -730,7 +711,7 @@
                                                         <td>
                                                             <div class="product-content">
                                                                 <div class="order-image"><img
-                                                                        src="{{ asset('assets/images/dashboard-2/order/sub-product/9.png') }}"
+                                                                        src="/assets/images/dashboard-2/order/sub-product/9.png"
                                                                         alt="lamp"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
@@ -745,8 +726,7 @@
                                                         <td class="f-w-500">
                                                             <div class="recent-status font-success">
                                                                 <svg class="me-1">
-                                                                    <use
-                                                                        href="{{ asset('assets/svg/icon-sprite.svg#24-hour') }}">
+                                                                    <use href="/assets/svg/icon-sprite.svg#24-hour">
                                                                     </use>
                                                                 </svg>Verified
                                                             </div>
@@ -757,7 +737,7 @@
                                                         <td>
                                                             <div class="product-content">
                                                                 <div class="order-image"><img
-                                                                        src="{{ asset('assets/images/dashboard-2/order/sub-product/10.png') }}"
+                                                                        src="/assets/images/dashboard-2/order/sub-product/10.png"
                                                                         alt="lamp"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
@@ -773,8 +753,7 @@
                                                         <td class="f-w-500">
                                                             <div class="recent-status font-danger">
                                                                 <svg class="me-1">
-                                                                    <use
-                                                                        href="{{ asset('assets/svg/icon-sprite.svg#24-hour') }}">
+                                                                    <use href="/assets/svg/icon-sprite.svg#24-hour">
                                                                     </use>
                                                                 </svg>Rejected
                                                             </div>
@@ -800,7 +779,7 @@
                 <div class="card-body pt-0">
                     <ul class="categories-list">
                         <li class="d-flex">
-                            <div class="bg-light"> <img src="{{ asset('assets/images/dashboard-2/category/1.png') }}"
+                            <div class="bg-light"> <img src="/assets/images/dashboard-2/category/1.png"
                                     alt="vector burger"></div>
                             <div>
                                 <h6 class="mb-0"><a href="{{ route('products.index')}}">Food & Drinks</a></h6><span
@@ -808,7 +787,7 @@
                             </div>
                         </li>
                         <li class="d-flex">
-                            <div class="bg-light"> <img src="{{ asset('assets/images/dashboard-2/category/2.png') }}"
+                            <div class="bg-light"> <img src="/assets/images/dashboard-2/category/2.png"
                                     alt="vector furniture"></div>
                             <div>
                                 <h6 class="mb-0"><a href="{{ route('products.index')}}">Furniture</a></h6><span
@@ -816,7 +795,7 @@
                             </div>
                         </li>
                         <li class="d-flex">
-                            <div class="bg-light"> <img src="{{ asset('assets/images/dashboard-2/category/3.png') }}"
+                            <div class="bg-light"> <img src="/assets/images/dashboard-2/category/3.png"
                                     alt="vector grocery box"></div>
                             <div>
                                 <h6 class="mb-0"><a href="{{ route('products.index')}}">Grocery</a></h6><span
@@ -824,7 +803,7 @@
                             </div>
                         </li>
                         <li class="d-flex">
-                            <div class="bg-light"> <img src="{{ asset('assets/images/dashboard-2/category/4.png') }}"
+                            <div class="bg-light"> <img src="/assets/images/dashboard-2/category/4.png"
                                     alt="vector game remote"></div>
                             <div>
                                 <h6 class="mb-0"><a href="{{ route('products.index') }}">Electronics</a>
@@ -832,7 +811,7 @@
                             </div>
                         </li>
                         <li class="d-flex">
-                            <div class="bg-light"> <img src="{{ asset('assets/images/dashboard-2/category/5.png') }}"
+                            <div class="bg-light"> <img src="/assets/images/dashboard-2/category/5.png"
                                     alt="vector toys"></div>
                             <div>
                                 <h6 class="mb-0"><a href="{{ route('products.index')}}">Toys & Games</a></h6><span
@@ -840,7 +819,7 @@
                             </div>
                         </li>
                         <li class="d-flex">
-                            <div class="bg-light"> <img src="{{ asset('assets/images/dashboard-2/category/6.png') }}"
+                            <div class="bg-light"> <img src="/assets/images/dashboard-2/category/6.png"
                                     alt="vector monitor"></div>
                             <div>
                                 <h6 class="mb-0"><a href="{{ route('products.index')}}">Desktop</a></h6><span
@@ -848,7 +827,7 @@
                             </div>
                         </li>
                         <li class="d-flex">
-                            <div class="bg-light"> <img src="{{ asset('assets/images/dashboard-2/category/7.png') }}"
+                            <div class="bg-light"> <img src="/assets/images/dashboard-2/category/7.png"
                                     alt="vector mobile"></div>
                             <div>
                                 <h6 class="mb-0"><a href="{{ route('products.index')}}">Mobile & Accessories</a></h6>
@@ -870,17 +849,17 @@
                                         <ul>
                                             <li>
                                                 <div class="recent-img-wrap"><img
-                                                        src="{{ asset('assets/images/dashboard-2/product/1.png') }}"
-                                                        alt="chair"></div>
+                                                        src="/assets/images/dashboard-2/product/1.png" alt="chair">
+                                                </div>
                                             </li>
                                             <li>
                                                 <div class="recent-img-wrap"><img
-                                                        src="{{ asset('assets/images/dashboard-2/product/2.png') }}"
-                                                        alt="chair"></div>
+                                                        src="/assets/images/dashboard-2/product/2.png" alt="chair">
+                                                </div>
                                             </li>
                                             <li>
                                                 <div class="recent-img-wrap"><img
-                                                        src="{{ asset('assets/images/dashboard-2/product/3.png') }}"
+                                                        src="/assets/images/dashboard-2/product/3.png"
                                                         alt="men t-shirt"></div>
                                             </li>
                                         </ul>
@@ -924,11 +903,11 @@
 @endsection
 
 @section('script')
-<script src="{{ asset('assets/js/chart/apex-chart/apex-chart.js') }}"></script>
-<script src="{{ asset('assets/js/chart/apex-chart/stock-prices.js') }}"></script>
-<script src="{{ asset('assets/js/counter/jquery.waypoints.min.js') }}"></script>
-<script src="{{ asset('assets/js/counter/jquery.counterup.min.js') }}"></script>
-<script src="{{ asset('assets/js/counter/counter-custom.js') }}"></script>
-<script src="{{ asset('assets/js/dashboard/dashboard_2.js') }}"></script>
-<script src="{{ asset('assets/js/animation/wow/wow.min.js') }}"></script>
+<script src="/assets/js/chart/apex-chart/apex-chart.js"></script>
+<script src="/assets/js/chart/apex-chart/stock-prices.js"></script>
+<script src="/assets/js/counter/jquery.waypoints.min.js"></script>
+<script src="/assets/js/counter/jquery.counterup.min.js"></script>
+<script src="/assets/js/counter/counter-custom.js"></script>
+<script src="/assets/js/dashboard/dashboard_2.js"></script>
+<script src="/assets/js/animation/wow/wow.min.js"></script>
 @endsection

@@ -13,7 +13,7 @@
 <div class="page-wrapper compact-wrapper" id="pageWrapper">
    <!-- error-400 start-->
    <div class="error-wrapper">
-      <div class="container"><img class="img-100" src="{{ asset('assets/images/other-images/sad.png') }}" alt="">
+      <div class="container"><img class="img-100" src="/assets/images/other-images/sad.png" alt="">
          <div class="error-heading">
             <h2 class="headline font-info">400</h2>
          </div>

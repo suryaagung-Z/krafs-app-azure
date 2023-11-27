@@ -32,10 +32,8 @@
                      <ul>
                         <li>
                            <a class="logo text-start ps-0" href="{{ route('/') }}">
-                              <img class="img-fluid for-light" src="{{asset('assets/images/logo/logo.png')}}"
-                                 alt="looginpage">
-                              <img class="img-fluid for-dark" src="{{asset('assets/images/logo/logo_dark.png')}}"
-                                 alt="looginpage">
+                              <img class="img-fluid for-light" src="/assets/images/logo/logo.png" alt="looginpage">
+                              <img class="img-fluid for-dark" src="/assets/images/logo/logo_dark.png" alt="looginpage">
                            </a>
                         </li>
                         <li>
@@ -66,7 +64,7 @@
                               <small>Complete.. !</small>
                            </a>
                         </li>
-                        <li><img src="{{asset('assets/images/login/icon.png')}}" alt="looginpage"></li>
+                        <li><img src="/assets/images/login/icon.png" alt="looginpage"></li>
                      </ul>
 
                      <div id="step-1">
@@ -216,7 +214,7 @@
 @endsection
 
 @section('script')
-<script src="{{ asset('assets/js/form-wizard/form-wizard-five.js')}}"></script>
-<script src="{{ asset('assets/js/tooltip-init.js')}}"></script>
-<script src="{{ asset('assets/js/theme-customizer/customizer.js')}}"></script>
+<script src="/assets/js/form-wizard/form-wizard-five.js"></script>
+<script src="/assets/js/tooltip-init.js"></script>
+<script src="/assets/js/theme-customizer/customizer.js"></script>
 @endsection

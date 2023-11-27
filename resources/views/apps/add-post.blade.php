@@ -6,8 +6,8 @@
 @endsection
 
 @section('style')
-<link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/select2.css')}}">
-<link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/dropzone.css')}}">
+<link rel="stylesheet" type="text/css" href="/assets/css/vendors/select2.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/vendors/dropzone.css">
 @endsection
 
 @section('breadcrumb-title')
@@ -90,12 +90,12 @@
 @endsection
 
 @section('script')
-<script src="{{asset('assets/js/editor/ckeditor/ckeditor.js')}}"></script>
-<script src="{{asset('assets/js/editor/ckeditor/adapters/jquery.js')}}"></script>
-<script src="{{asset('assets/js/dropzone/dropzone.js')}}"></script>
-<script src="{{asset('assets/js/dropzone/dropzone-script.js')}}"></script>
-<script src="{{asset('assets/js/select2/select2.full.min.js')}}"></script>
-<script src="{{asset('assets/js/select2/select2-custom.js')}}"></script>
-<script src="{{asset('assets/js/email-app.js')}}"></script>
-<script src="{{asset('assets/js/form-validation-custom.js')}}"></script>
+<script src="/assets/js/editor/ckeditor/ckeditor.js"></script>
+<script src="/assets/js/editor/ckeditor/adapters/jquery.js"></script>
+<script src="/assets/js/dropzone/dropzone.js"></script>
+<script src="/assets/js/dropzone/dropzone-script.js"></script>
+<script src="/assets/js/select2/select2.full.min.js"></script>
+<script src="/assets/js/select2/select2-custom.js"></script>
+<script src="/assets/js/email-app.js"></script>
+<script src="/assets/js/form-validation-custom.js"></script>
 @endsection

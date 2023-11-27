@@ -51,8 +51,8 @@
                         </div>
                      </form>
                   </div>
-                  <div class="col-md-5 text-center"><img class="img-fluid"
-                        src="{{asset('assets/images/ecommerce/card.png')}}" alt=""></div>
+                  <div class="col-md-5 text-center"><img class="img-fluid" src="/assets/images/ecommerce/card.png"
+                        alt=""></div>
                </div>
             </div>
          </div>
@@ -191,9 +191,9 @@
                   </div>
                   <div class="mb-3 col-12">
                      <ul class="payment-opt">
-                        <li><img src="{{asset('assets/images/ecommerce/mastercard.png')}}" alt=""></li>
-                        <li><img src="{{asset('assets/images/ecommerce/visa.png')}}" alt=""></li>
-                        <li><img src="{{asset('assets/images/ecommerce/paypal.png')}}" alt=""></li>
+                        <li><img src="/assets/images/ecommerce/mastercard.png" alt=""></li>
+                        <li><img src="/assets/images/ecommerce/visa.png" alt=""></li>
+                        <li><img src="/assets/images/ecommerce/paypal.png" alt=""></li>
                      </ul>
                   </div>
                   <div class="col-12">

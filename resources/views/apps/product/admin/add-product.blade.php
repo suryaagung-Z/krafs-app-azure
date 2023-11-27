@@ -6,8 +6,8 @@
 @endsection
 
 @section('style')
-<link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/select2.css')}}">
-<link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/simple-mde.css')}}">
+<link rel="stylesheet" type="text/css" href="/assets/css/vendors/select2.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/vendors/simple-mde.css">
 @endsection
 
 @section('breadcrumb-title')
@@ -125,10 +125,10 @@
 @endsection
 
 @section('script')
-<script src="{{asset('assets/js/editor/simple-mde/simplemde.min.js')}}"></script>
-<script src="{{asset('assets/js/select2/select2.full.min.js')}}"></script>
-<script src="{{asset('assets/js/select2/select2-custom.js')}}"></script>
-<script src="{{asset('assets/js/form-validation-custom.js')}}"></script>
+<script src="/assets/js/editor/simple-mde/simplemde.min.js"></script>
+<script src="/assets/js/select2/select2.full.min.js"></script>
+<script src="/assets/js/select2/select2-custom.js"></script>
+<script src="/assets/js/form-validation-custom.js"></script>
 <script>
 	(function () {
         'use strict'

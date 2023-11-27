@@ -10,14 +10,14 @@
 @section('content')
 <div class="container-fluid">
    <div class="row">
-      <div class="col-xl-5"><img class="bg-img-cover bg-center" src="{{asset('assets/images/login/bg-login.jpg')}}"
+      <div class="col-xl-5"><img class="bg-img-cover bg-center" src="/assets/images/login/bg-login.jpg"
             alt="looginpage"></div>
       <div class="col-xl-7 p-0">
          <div class="login-card">
             <div>
                <div><a class="logo text-start" href="{{ route('/') }}"><img class="img-fluid for-light"
-                        src="{{asset('assets/images/logo/logo.png')}}" alt="looginpage"><img class="img-fluid for-dark"
-                        src="{{asset('assets/images/logo/logo_dark.png')}}" alt="looginpage"></a></div>
+                        src="/assets/images/logo/logo.png" alt="looginpage"><img class="img-fluid for-dark"
+                        src="/assets/images/logo/logo_dark.png" alt="looginpage"></a></div>
                <div class="login-main">
                   <form class="theme-form needs-validation" novalidate="" action="{{ route('sign-in.auth') }}"
                      method="POST">
@@ -52,8 +52,7 @@
                      <div class="social mt-4">
                         <div class="btn-showcase">
                            <a class="btn btn-light py-2" href="https://www.linkedin.com/login" target="_blank">
-                              <img src="{{ asset('assets/images/svg-icon/google.svg') }}" alt="google logo"
-                                 width="30px"> Google
+                              <img src="/assets/images/svg-icon/google.svg" alt="google logo" width="30px"> Google
                            </a>
                         </div>
                      </div>

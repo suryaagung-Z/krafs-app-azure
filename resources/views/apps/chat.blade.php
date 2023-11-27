@@ -26,7 +26,7 @@
 						<div class="col pe-0 chat-right-aside">
 							<div class="chat">
 								<div class="chat-header clearfix">
-									<img class="rounded-circle" src="{{ asset('assets/images/user/8.jpg') }}" alt="">
+									<img class="rounded-circle" src="/assets/images/user/8.jpg" alt="">
 									<div class="about">
 										<div class="name">Krafs Bot 🤖</div>
 										<div class="status text-primary">Online...</div>
@@ -52,7 +52,7 @@
 										<div class="col-xl-12 d-flex">
 											<div class="smiley-box bg-primary">
 												<div class="picker">
-													<img src="{{ asset('assets/images/smiley.png') }}" alt="">
+													<img src="/assets/images/smiley.png" alt="">
 												</div>
 											</div>
 											<div class="input-group text-box" id="send-message">
@@ -83,7 +83,7 @@
 						<div class="col pe-0 chat-right-aside">
 							<div class="chat">
 								<div class="chat-header clearfix">
-									<img class="rounded-circle" src="{{ asset('assets/images/user/8.jpg') }}" alt="">
+									<img class="rounded-circle" src="/assets/images/user/8.jpg" alt="">
 									<div class="about">
 										<div class="name">{{ $forum->name }}</div>
 										<div class="status text-primary">Online...</div>
@@ -109,7 +109,7 @@
 										<div class="col-xl-12 d-flex">
 											<div class="smiley-box bg-primary">
 												<div class="picker">
-													<img src="{{ asset('assets/images/smiley.png') }}" alt="">
+													<img src="/assets/images/smiley.png" alt="">
 												</div>
 											</div>
 											<div class="input-group text-box" id="send-message">
