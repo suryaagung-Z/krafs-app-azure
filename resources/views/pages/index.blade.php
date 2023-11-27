@@ -92,7 +92,6 @@
   <!-- merch -->
   <div class="main-banner fadeIn" id="top">
     <div class="container trigger-header">
-      {{ env('APP_URL') }}
       <div class="row">
         <div class="col-lg-12">
           <div class="row">
