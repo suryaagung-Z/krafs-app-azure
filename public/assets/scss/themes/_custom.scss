@@ -1,0 +1,19 @@
+/**=====================
+ custom CSS Start
+==========================**/
+// you can add your custom css here
+
+body.dark-only {
+    #trigger-chat {
+        &.active {
+            background-color: rgba(115, 102, 255, 0.2);
+        }
+    }
+}
+
+#trigger-chat {
+    cursor: pointer;
+    &.active {
+        background-color: #f1f0ff;
+    }
+}
