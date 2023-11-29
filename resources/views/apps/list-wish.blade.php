@@ -10,7 +10,7 @@
 @endsection
 
 @section('breadcrumb-title')
-<h3>Wishlist</h3>
+<h3>Wishlist 💝</h3>
 @endsection
 
 @section('breadcrumb-items')

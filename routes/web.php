@@ -5,6 +5,7 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\ForumController;
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\OrderHistoryController;
 use App\Http\Controllers\ProductCategoryController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProfileController;
@@ -36,6 +37,9 @@ Route::prefix('ecommerce')->group(function () {
     Route::resource('orders', OrderController::class)
         ->middleware(['auth', 'admin'])
         ->except(['store']);
+    Route::resource('order-history', OrderHistoryController::class)
+        ->middleware(['auth', 'customer'])
+        ->only(['index']);
     Route::resource('products', ProductController::class);
     Route::resource('cart', CartController::class)
         ->middleware(['auth', 'customer'])
@@ -69,9 +73,7 @@ Route::prefix('ecommerce')->group(function () {
 // });
 
 Route::prefix('ecommerce')->group(function () {
-    Route::view('list-products', 'apps.list-products')->name('list-products')->middleware('admin');
     Route::view('payment-details', 'apps.payment-details')->name('payment-details')->middleware(['auth', 'customer']);
-    Route::view('order-history', 'apps.order-history')->name('order-history')->middleware(['auth', 'customer']);
     Route::view('invoice-template', 'apps.invoice-template')->name('invoice-template')->middleware(['auth', 'customer']);
     Route::view('list-wish', 'apps.list-wish')->name('list-wish')->middleware(['auth', 'customer']);
 });

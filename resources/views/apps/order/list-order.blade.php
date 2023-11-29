@@ -1,5 +1,5 @@
 @extends('layouts.simple.master')
-@section('title', 'Categories')
+@section('title', 'Orders')
 
 @section('css')
 

@@ -70,7 +70,7 @@
                             <li><a href="{{ route('product-category.index') }}">Category</a></li>
                             <li><a href="{{ route('orders.index') }}">Orders</a></li>
                             @elseif(auth()->user()->role_id == '2')
-                            <li><a href="{{ route('order-history') }}">Order History</a></li>
+                            <li><a href="{{ route('order-history.index') }}">Order History</a></li>
                             <li><a href="{{ route('cart.index') }}">Cart</a></li>
                             <li><a href="{{ route('list-wish') }}">Wishlist</a></li>
                             @endif
