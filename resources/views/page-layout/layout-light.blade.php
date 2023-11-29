@@ -569,7 +569,7 @@
                     <li><a href="{{route('payment-details')}}"
                         class="{{ Route::currentRouteName()=='payment-details' ? 'active' : '' }}">Payment Details</a>
                     </li>
-                    <li><a href="{{route('order-history')}}"
+                    <li><a href="{{route('order-history.index')}}"
                         class="{{ Route::currentRouteName()=='order-history' ? 'active' : '' }}">Order History</a></li>
                     <li><a href="{{route('invoice-template')}}"
                         class="{{ Route::currentRouteName()=='invoice-template' ? 'active' : '' }}">Invoice</a></li>

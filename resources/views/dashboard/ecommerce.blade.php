@@ -433,7 +433,7 @@
                                                                         alt="t-shirt"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
-                                                                            href="{{ route('order-history')}}">T-shirt</a>
+                                                                            href="{{ route('order-history.index')}}">T-shirt</a>
                                                                     </h6>
                                                                     <span class="f-light f-12">Id : #CFDE-2163</span>
                                                                 </div>
@@ -459,7 +459,7 @@
                                                                         alt="t-shirt"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
-                                                                            href="{{ route('order-history')}}">Pink
+                                                                            href="{{ route('order-history.index')}}">Pink
                                                                             T-shirt</a>
                                                                     </h6><span class="f-light f-12">Id :
                                                                         #CFDE-2780</span>
@@ -504,7 +504,7 @@
                                                                         alt="television"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
-                                                                            href="{{ route('order-history')}}">Sony</a>
+                                                                            href="{{ route('order-history.index')}}">Sony</a>
                                                                     </h6>
                                                                     <span class="f-light f-12">Id : #CFDE-2163</span>
                                                                 </div>
@@ -530,7 +530,7 @@
                                                                         alt="television"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
-                                                                            href="{{ route('order-history')}}">Samsung</a>
+                                                                            href="{{ route('order-history.index')}}">Samsung</a>
                                                                     </h6>
                                                                     <span class="f-light f-12">Id : #CFDE-2780</span>
                                                                 </div>
@@ -574,7 +574,7 @@
                                                                         alt="headephones"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
-                                                                            href="{{ route('order-history')}}">Sony</a>
+                                                                            href="{{ route('order-history.index')}}">Sony</a>
                                                                     </h6>
                                                                     <span class="f-light f-12">Id : #CFDE-2163</span>
                                                                 </div>
@@ -600,7 +600,7 @@
                                                                         alt="headephones"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
-                                                                            href="{{ route('order-history')}}">Sennheiser</a>
+                                                                            href="{{ route('order-history.index')}}">Sennheiser</a>
                                                                     </h6><span class="f-light f-12">Id :
                                                                         #CFDE-2780</span>
                                                                 </div>
@@ -644,7 +644,7 @@
                                                                         alt="chair"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
-                                                                            href="{{ route('order-history')}}">Chair</a>
+                                                                            href="{{ route('order-history.index')}}">Chair</a>
                                                                     </h6>
                                                                     <span class="f-light f-12">Id : #CFDE-2163</span>
                                                                 </div>
@@ -670,7 +670,7 @@
                                                                         alt="chair"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
-                                                                            href="{{ route('order-history')}}">Office
+                                                                            href="{{ route('order-history.index')}}">Office
                                                                             chair</a>
                                                                     </h6><span class="f-light f-12">Id :
                                                                         #CFDE-2780</span>
@@ -715,7 +715,7 @@
                                                                         alt="lamp"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
-                                                                            href="{{ route('order-history')}}">Lamp</a>
+                                                                            href="{{ route('order-history.index')}}">Lamp</a>
                                                                     </h6>
                                                                     <span class="f-light f-12">Id : #CFDE-2163</span>
                                                                 </div>
@@ -741,7 +741,7 @@
                                                                         alt="lamp"></div>
                                                                 <div>
                                                                     <h6 class="f-14 mb-0"><a
-                                                                            href="{{ route('order-history')}}">Bedside
+                                                                            href="{{ route('order-history.index')}}">Bedside
                                                                             lamp</a>
                                                                     </h6><span class="f-light f-12">Id :
                                                                         #CFDE-2780</span>
