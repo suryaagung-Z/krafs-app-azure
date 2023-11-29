@@ -44,7 +44,6 @@
                   <th>Phone</th>
                   <th>Order Total</th>
                   <th>Transfer Slip</th>
-                  <th>Status</th>
                   <th>Action</th>
                 </tr>
               </thead>
@@ -60,22 +59,6 @@
                       <img src="/assets/images/payment-method/{{$order->paymentMethod->icon}}" alt="" width="35">
                       <small>{{ $order->paymentMethod->name }}</small>
                     </div>
-                  </td>
-                  <td>
-                    @php
-                    $colorType = "";
-                    $statusOrder = $order->status->_id;
-                    if($statusOrder == 0){
-                    $colorType = "primary";
-                    }elseif($statusOrder == 1){
-                    $colorType = "success";
-                    }else {
-                    $colorType = "danger";
-                    }
-                    @endphp
-                    <span class="badge badge-{{$colorType}}">
-                      {{ $order->status->name }}
-                    </span>
                   </td>
                   <td>
                     <button type="button" class="btn btn-success btn-xs" data-original-title="btn btn-danger btn-xs"
