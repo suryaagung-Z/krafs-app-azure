@@ -22,13 +22,13 @@
                             <h6>Pinned</h6>
                         </div>
                     </li>
+
+                    @auth
                     <li class="sidebar-main-title">
                         <div>
                             <h6>General</h6>
                         </div>
                     </li>
-
-                    @auth
                     @if (auth()->user()->role_id == '1')
                     <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a
                             class="sidebar-link sidebar-title link-nav" href="{{ route('dashboard') }}">
@@ -68,6 +68,7 @@
                             @auth
                             @if (auth()->user()->role_id == '1')
                             <li><a href="{{ route('product-category.index') }}">Category</a></li>
+                            <li><a href="{{ route('orders.index') }}">Orders</a></li>
                             @elseif(auth()->user()->role_id == '2')
                             <li><a href="{{ route('order-history') }}">Order History</a></li>
                             <li><a href="{{ route('cart.index') }}">Cart</a></li>

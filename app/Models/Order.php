@@ -16,4 +16,14 @@ class Order extends EloquentModel
     {
         return $this->belongsTo(User::class);
     }
+
+    public function paymentMethod(): BelongsTo
+    {
+        return $this->belongsTo(PaymentMethod::class);
+    }
+
+    public function status(): BelongsTo
+    {
+        return $this->belongsTo(StatusOrder::class, 'status_order_id');
+    }
 }

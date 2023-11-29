@@ -79,6 +79,7 @@ class CheckoutController extends Controller
         $store->payment_method_id = $req['payMethod'];
         $store->products = $req['products'];
         $store->proofPayment = $proofPath;
+        $store->status_order_id = 1;
         if ($store->save()) {
             $cartToDel = Cart::where('user_id', Auth::id())->get();
             $cartToDel->each->delete();

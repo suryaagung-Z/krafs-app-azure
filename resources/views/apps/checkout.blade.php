@@ -155,7 +155,7 @@
                                  <label class="d-block" for="edo-ani-{{$loop->iteration}}">
                                     <input class="radio_animated" id="edo-ani-{{$loop->iteration}}" type="radio"
                                        name="payMethod" data-original-title="" title="" value="{{$pm->_id}}" required>
-                                    <img src="/assets/images/payment-method/'.{{$pm->icon}}" alt="" width="35">
+                                    <img src="/assets/images/payment-method/{{$pm->icon}}" alt="" width="35">
                                     <small>({{$pm->number}})</small>
                                  </label>
                                  @endforeach
